@@ -14,4 +14,71 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="源.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="initilization.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="attack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rebuild.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="backup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="computeR.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="attack2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rebuild2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="output.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reconstruction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reconstruction2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="exchange.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="findslope.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="swap1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reconstruction3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reconnect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reconnect2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reconnect3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="swap2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="print_network.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ARA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

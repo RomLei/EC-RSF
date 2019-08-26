@@ -74,6 +74,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -90,6 +91,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -110,6 +112,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="attack.cpp" />
+    <ClCompile Include="attack2.cpp" />
+    <ClCompile Include="backup.cpp" />
+    <ClCompile Include="computeR.cpp" />
+    <ClCompile Include="exchange.cpp" />
+    <ClCompile Include="findslope.cpp" />
+    <ClCompile Include="initilization.cpp" />
+    <ClCompile Include="output.cpp" />
+    <ClCompile Include="print_network.cpp" />
+    <ClCompile Include="rebuild.cpp" />
+    <ClCompile Include="rebuild2.cpp" />
+    <ClCompile Include="reconnect.cpp" />
+    <ClCompile Include="reconnect2.cpp" />
+    <ClCompile Include="reconnect3.cpp" />
+    <ClCompile Include="reconstruction.cpp" />
+    <ClCompile Include="reconstruction2.cpp" />
+    <ClCompile Include="reconstruction3.cpp" />
+    <ClCompile Include="swap1.cpp" />
+    <ClCompile Include="swap2.cpp" />
+    <ClCompile Include="源.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ARA.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
